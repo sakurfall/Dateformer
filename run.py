@@ -7,7 +7,7 @@ import torch
 from exp.exp_dateformer import Exp_Dateformer
 from exp.exp_dert import Exp_DERT
 
-fix_seed = 20210827
+fix_seed = 2021
 random.seed(fix_seed)
 torch.manual_seed(fix_seed)
 np.random.seed(fix_seed)
